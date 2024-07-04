@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast......</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('cloud.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <img src="capabli_icon.png" alt="capabl icon" width="200" height="100">
+        <a href="#" class="active">Home</a>
+        <a href="about.html">About</a>
+    </div>
+                
+    <marquee><h1 class="title">Weather Report</h1></marquee>
+  
+    <div class="search-container">
+        <div ><input class="box" type="text" style="width:300px;  border-radius: 100px;background-color: rgb(225, 215, 235);font-size:30px;padding: 10px;" id="locationInput" placeholder="Enter city name (e.g: kerala)" ></div>
+       
+        <div><input class="button"   type="submit" onclick="getWeather()" value="search"></div>
+    </div>
+    <center><div id="currentWeather" ></div>
+        <div id="forecast"></div></center>
+    
+    <script src="script.js"></script>
+</body>
+</html>

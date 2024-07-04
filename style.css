@@ -1,0 +1,89 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif ,bold;
+  text-align: left;
+  background-color: #eee8e7;
+}
+
+.box{
+width:200px;
+border-radius: 10px;
+width: 250px;
+}
+::placeholder {
+  color: rgb(17, 5, 5);
+  font-size:20px;
+  
+ 
+}
+
+.button{
+border-radius:50px;
+font-size:20px;
+width: 300px;
+background-color: blue;
+
+width:200px; height:60px; font-weight:800;border-radius: 100px
+
+}
+
+.search-container {
+  padding-left:400px;
+  display:grid;
+  grid-template-columns: 200px 100px;
+  
+  column-gap: 200px;
+  margin-bottom:20px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 100px;
+  font-style: oblique;
+  margin: 5%;
+}
+
+
+
+
+a{
+font-weight:bold;
+text-decoration:none;
+color:white;
+font-size:30px;
+}
+
+.button:hover {
+  background-color:green;
+  color:yellow;
+}
+
+#currentWeather, #forecast {
+  background-color: hsla(190, 12%, 10%, 0.61);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 12 0 10px rgba(14, 3, 3, 0.1);
+  display: inline-block;
+  text-align: left;
+  font-weight: 1000px;
+  font-size:30px;
+  margin-bottom: 20px;
+  width: 90%;
+  color:white
+}
+
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items: center;
+padding-left:100px;
+padding-right:100px;
+background-color: black;
+}
+
+about-section {
+  background-color: #ac1313; /* Replace with your desired background color */
+  padding: 2em;
+}
